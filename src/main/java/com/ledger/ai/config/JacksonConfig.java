@@ -1,9 +1,11 @@
 package com.ledger.ai.config;
 
 import com.ledger.ai.model.dto.PagedModel;
+import com.ledger.ai.model.dto.SlicedModel;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Slice;
 import tools.jackson.core.JacksonException;
 import tools.jackson.core.JsonGenerator;
 import tools.jackson.databind.JacksonModule;
@@ -18,13 +20,18 @@ public class JacksonConfig {
     public JacksonModule jacksonModule() {
         SimpleModule simpleModule = new SimpleModule();
         simpleModule.addSerializer(Page.class, new ValueSerializer<>() {
-                    @Override
-                    public void serialize(Page page, JsonGenerator gen, SerializationContext context) throws JacksonException {
-                        context.writeValue(gen, new PagedModel<>((Page<?>) page));
-                    }
-                }
-        );
+            @Override
+            public void serialize(Page page, JsonGenerator gen, SerializationContext context) throws JacksonException {
+                context.writeValue(gen, new PagedModel<>((Page<?>) page));
+            }
+        });
+        simpleModule.addSerializer(Slice.class, new ValueSerializer<>() {
+            @Override
+            public void serialize(Slice slice, JsonGenerator gen, SerializationContext context)
+                    throws JacksonException {
+                context.writeValue(gen, new SlicedModel<>((Slice<?>) slice));
+            }
+        });
         return simpleModule;
     }
-
 }
