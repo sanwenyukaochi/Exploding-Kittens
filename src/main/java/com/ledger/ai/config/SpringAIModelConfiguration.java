@@ -10,13 +10,12 @@ import org.springframework.context.annotation.Configuration;
 public class SpringAIModelConfiguration {
 
     @Bean
-    public ChatClient openAIChatClient(OpenAiChatModel chatModel){
+    public ChatClient openAIChatClient(OpenAiChatModel chatModel) {
         return ChatClient.create(chatModel);
     }
 
     @Bean
-    public ChatClient deepSeekAIChatClient(DeepSeekChatModel chatModel){
+    public ChatClient deepSeekAIChatClient(DeepSeekChatModel chatModel) {
         return ChatClient.create(chatModel);
     }
-
 }

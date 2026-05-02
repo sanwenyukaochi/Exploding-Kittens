@@ -5,6 +5,5 @@ import org.junit.jupiter.api.Test;
 public class LedgerApplicationTests {
 
     @Test
-    void test() {
-    }
+    void test() {}
 }

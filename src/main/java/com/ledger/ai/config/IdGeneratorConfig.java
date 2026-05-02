@@ -12,5 +12,4 @@ public class IdGeneratorConfig {
     public Snowflake snowflake() {
         return IdUtil.getSnowflake(1, 1);
     }
-
 }
