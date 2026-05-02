@@ -1,4 +1,4 @@
-package com.ledger.ai.model.dto;
+package com.ledger.ai.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;

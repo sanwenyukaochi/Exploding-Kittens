@@ -1,7 +1,6 @@
-package com.ledger.ai.model.entity;
+package com.ledger.ai.entity;
 
-import com.ledger.ai.model.entity.base.AbstractAuditableEntity;
-import com.ledger.ai.model.entity.base.RoleCode;
+import com.ledger.ai.enums.RoleCode;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import java.util.HashSet;
@@ -19,7 +18,7 @@ import lombok.experimental.Accessors;
         uniqueConstraints = {@UniqueConstraint(name = "uk_role_code", columnNames = "code")},
         comment = "角色表")
 @Schema(title = "系统角色实体")
-public class RoleEntity extends AbstractAuditableEntity {
+public class RoleEntity extends AbstractIdEntity {
 
     @Schema(title = "角色编码")
     @Column(comment = "角色编码", name = "code", length = 10, nullable = false)
