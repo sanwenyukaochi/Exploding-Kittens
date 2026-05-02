@@ -29,17 +29,11 @@ dependencies {
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:${libs.versions.springdoc.get()}")
     implementation("org.apache.commons:commons-lang3:${libs.versions.commonsLang3.get()}")
 
-    implementation("io.jsonwebtoken:jjwt-api:${libs.versions.jjwt.get()}")
-    runtimeOnly("io.jsonwebtoken:jjwt-impl:${libs.versions.jjwt.get()}")
-    runtimeOnly("io.jsonwebtoken:jjwt-jackson:${libs.versions.jjwt.get()}")
-
     runtimeOnly("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
     implementation("org.jspecify:jspecify:${libs.versions.jspecify.get()}")
 
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
-
-    implementation("io.jsonwebtoken:jjwt-api:${libs.versions.jjwt.get()}")
 
     implementation("org.springframework.ai:spring-ai-starter-model-openai")
     implementation("org.springframework.ai:spring-ai-starter-model-deepseek")
