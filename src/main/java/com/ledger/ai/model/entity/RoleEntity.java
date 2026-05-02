@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
         uniqueConstraints = {@UniqueConstraint(name = "uk_role_code", columnNames = "code")},
         comment = "角色表")
 @Schema(title = "系统角色实体")
-public class UserRoleEntity extends AbstractAuditableEntity {
+public class RoleEntity extends AbstractAuditableEntity {
 
     @Schema(title = "角色编码")
     @Column(comment = "角色编码", name = "code", length = 10, nullable = false)
