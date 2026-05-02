@@ -1,4 +1,4 @@
-package com.ledger.ai.model.entity.base;
+package com.ledger.ai.enums;
 
 public enum RoleCode {
     ADMIN,

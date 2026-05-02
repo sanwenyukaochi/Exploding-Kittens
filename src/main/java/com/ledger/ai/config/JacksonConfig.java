@@ -1,7 +1,7 @@
 package com.ledger.ai.config;
 
-import com.ledger.ai.model.dto.PagedModel;
-import com.ledger.ai.model.dto.SlicedModel;
+import com.ledger.ai.model.PagedModel;
+import com.ledger.ai.model.SlicedModel;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.Page;

@@ -3,7 +3,7 @@ package com.ledger.ai.config;
 import java.time.Duration;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
-import org.redisson.codec.JsonJacksonCodec;
+import org.redisson.codec.JsonJackson3Codec;
 import org.redisson.config.Config;
 import org.redisson.misc.RedisURI;
 import org.springframework.cache.annotation.EnableCaching;
@@ -30,7 +30,7 @@ public class RedissonConfig {
         RedisStandaloneConfiguration redisConfig =
                 ((LettuceConnectionFactory) redisConnectionFactory).getStandaloneConfiguration();
         Config redissonConfig = new Config();
-        redissonConfig.setCodec(new JsonJacksonCodec());
+        redissonConfig.setCodec(new JsonJackson3Codec());
         redissonConfig.setUsername(redisConfig.getUsername());
         redissonConfig.setPassword(new String(redisConfig.getPassword().get()));
         redissonConfig
@@ -55,8 +55,8 @@ public class RedissonConfig {
                                         .build())
                                 .enableSpringCacheNullValueSupport()
                                 .build()))
-                .disableCachingNullValues()
-                .entryTtl(Duration.ofMillis(10L));
+                .entryTtl(Duration.ofMillis(10L))
+                .disableCachingNullValues();
         return RedisCacheManager.builder(cacheWriter)
                 .cacheDefaults(defaultCacheConfiguration)
                 .transactionAware()

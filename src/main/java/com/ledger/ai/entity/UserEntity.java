@@ -1,6 +1,5 @@
-package com.ledger.ai.model.entity;
+package com.ledger.ai.entity;
 
-import com.ledger.ai.model.entity.base.AbstractAuditableEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import java.util.Set;
@@ -17,7 +16,7 @@ import lombok.experimental.Accessors;
         uniqueConstraints = {@UniqueConstraint(name = "uk_user_username", columnNames = "username")},
         comment = "用户表")
 @Schema(title = "系统用户实体")
-public class UserEntity extends AbstractAuditableEntity {
+public class UserEntity extends AbstractIdEntity {
 
     @Schema(title = "用户名")
     @Column(comment = "用户名", name = "username", nullable = false, length = 20)
