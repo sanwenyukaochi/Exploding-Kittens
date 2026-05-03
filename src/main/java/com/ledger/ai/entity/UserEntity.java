@@ -16,7 +16,7 @@ import lombok.experimental.Accessors;
         uniqueConstraints = {@UniqueConstraint(name = "uk_user_username", columnNames = "username")},
         comment = "用户表")
 @Schema(title = "系统用户实体")
-public class UserEntity extends AbstractIdEntity {
+public class UserEntity extends AbstractIdEntity<Long> {
 
     @Schema(title = "用户名")
     @Column(comment = "用户名", name = "username", nullable = false, length = 20)
