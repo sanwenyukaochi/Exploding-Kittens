@@ -20,12 +20,12 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 @Schema(title = "基础信息字段")
-public abstract class AbstractIdEntity {
+public abstract class AbstractIdEntity<ID> {
 
     @Id
     @Schema(title = "主键ID")
     @Column(comment = "主键ID", name = "id", nullable = false)
     @Setter(AccessLevel.PUBLIC)
-    private Long id;
+    private ID id;
 
 }
