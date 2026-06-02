@@ -73,13 +73,14 @@ subprojects {
     pluginManager.withPlugin("com.diffplug.spotless") {
         extensions.configure<SpotlessExtension> {
             encoding("UTF-8")
-
             java {
-                googleJavaFormat().aosp()
-                removeUnusedImports()
+                palantirJavaFormat()
                 importOrder()
+                removeUnusedImports()
+                formatAnnotations()
                 trimTrailingWhitespace()
                 endWithNewline()
+                toggleOffOn()
             }
 
             kotlin {
@@ -88,20 +89,6 @@ subprojects {
 
             kotlinGradle {
                 ktlint()
-            }
-        }
-
-        pluginManager.withPlugin("java") {
-            extensions.configure<SpotlessExtension> {
-                java {
-                    palantirJavaFormat()
-                    importOrder()
-                    removeUnusedImports()
-                    formatAnnotations()
-                    trimTrailingWhitespace()
-                    endWithNewline()
-                    toggleOffOn()
-                }
             }
         }
     }
