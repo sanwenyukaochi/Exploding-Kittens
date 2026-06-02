@@ -1,116 +1,108 @@
 import com.diffplug.gradle.spotless.SpotlessExtension
-import com.gorylenko.GitPropertiesPluginExtension
+import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
+import org.gradle.api.plugins.JavaPluginExtension
+import org.gradle.api.tasks.testing.Test
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
 import org.springframework.boot.gradle.dsl.SpringBootExtension
 
 plugins {
-    java
-    id("org.springframework.boot") version "4.0.5"
-    id("io.spring.dependency-management") version "1.1.7"
-    id("com.gorylenko.gradle-git-properties") version "2.5.7"
-    id("com.diffplug.spotless") version "8.4.0"
+    id("org.springframework.boot") version "4.0.5" apply false
+    id("io.spring.dependency-management") version "1.1.7" apply false
+    id("com.gorylenko.gradle-git-properties") version "2.5.7" apply false
+    id("com.diffplug.spotless") version "8.4.0" apply false
 }
 
-group = "com.spring.security"
+group = "com.kittens.exploding"
 version = "0.0.1-SNAPSHOT"
-description = "project-security"
 
-dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.springframework.boot:spring-boot-starter-validation")
-    implementation("org.springframework.boot:spring-boot-starter-actuator")
-    implementation("org.springframework.boot:spring-boot-starter-flyway")
-    runtimeOnly("org.flywaydb:flyway-database-postgresql")
-
-    implementation("org.springframework.boot:spring-boot-starter-data-redis")
-    implementation("org.redisson:redisson:${libs.versions.redisson.get()}")
-    implementation("cn.hutool:hutool-core:${libs.versions.hutool.get()}")
-
-    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:${libs.versions.springdoc.get()}")
-    implementation("org.apache.commons:commons-lang3:${libs.versions.commonsLang3.get()}")
-
-    runtimeOnly("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
-    implementation("org.jspecify:jspecify:${libs.versions.jspecify.get()}")
-
-    compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
-
-    implementation("org.springframework.ai:spring-ai-starter-model-openai")
-    implementation("org.springframework.ai:spring-ai-starter-model-deepseek")
-
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testImplementation("org.springframework.security:spring-security-test")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+allprojects {
+    group = rootProject.group
+    version = rootProject.version
 }
 
-pluginManager.withPlugin("org.springframework.boot") {
-    extensions.configure<SpringBootExtension> {
-        buildInfo()
-    }
-}
+subprojects {
+    pluginManager.withPlugin("java") {
+        apply(plugin = "com.diffplug.spotless")
 
-pluginManager.withPlugin("com.gorylenko.gradle-git-properties") {
-    extensions.configure<GitPropertiesPluginExtension> {
-        failOnNoGitDirectory = false
-        keys =
-            listOf(
-                "git.branch",
-                "git.build.host",
-                "git.build.user.email",
-                "git.build.user.name",
-                "git.build.version",
-                "git.closest.tag.commit.count",
-                "git.closest.tag.name",
-                "git.commit.id",
-                "git.commit.id.abbrev",
-                "git.commit.id.describe",
-                "git.commit.message.full",
-                "git.commit.message.short",
-                "git.commit.time",
-                "git.commit.user.email",
-                "git.commit.user.name",
-                "git.dirty",
-                "git.remote.origin.url",
-                "git.tags",
-                "git.total.commit.count",
-            )
-    }
-}
-
-pluginManager.withPlugin("com.diffplug.spotless") {
-    extensions.configure<SpotlessExtension> {
-        encoding("UTF-8")
-
-        java {
-            palantirJavaFormat()
-            importOrder()
-            removeUnusedImports()
-            formatAnnotations()
-            trimTrailingWhitespace()
-            endWithNewline()
-            toggleOffOn()
+        extensions.configure<JavaPluginExtension> {
+            sourceCompatibility = JavaVersion.VERSION_26
+            targetCompatibility = JavaVersion.VERSION_26
+            toolchain {
+                languageVersion.set(JavaLanguageVersion.of(26))
+            }
+            withSourcesJar()
         }
 
-        kotlin {
-            ktlint()
+        dependencies {
+            add("compileOnly", "org.projectlombok:lombok")
+            add("annotationProcessor", "org.projectlombok:lombok")
+            add("testCompileOnly", "org.projectlombok:lombok")
+            add("testAnnotationProcessor", "org.projectlombok:lombok")
+            add("implementation", "org.springframework.boot:spring-boot-starter-logging")
+            add("testImplementation", "org.mockito:mockito-core")
         }
 
-        kotlinGradle {
-            ktlint()
+        tasks.withType<Test> {
+            useJUnitPlatform()
+        }
+
+        tasks.named("compileJava") {
+            dependsOn(tasks.named("spotlessCheck"))
         }
     }
-}
 
-tasks.withType<Test> {
-    useJUnitPlatform()
-}
+    pluginManager.withPlugin("io.spring.dependency-management") {
+        extensions.configure<DependencyManagementExtension> {
+            imports {
+                mavenBom(SpringBootPlugin.BOM_COORDINATES)
+            }
+            dependencies {
+                dependency("org.springframework.kafka:spring-kafka:${property("springKafkaVersion")}")
+                dependency("io.confluent:kafka-avro-serializer:${property("kafkaAvroSerializerVersion")}")
+                dependency("org.apache.avro:avro:${property("avroVersion")}")
+            }
+        }
+    }
 
-tasks.named("compileJava") {
-    dependsOn(tasks.named("spotlessCheck"))
-}
+    pluginManager.withPlugin("org.springframework.boot") {
+        extensions.configure<SpringBootExtension> {
+            buildInfo()
+        }
+    }
 
-dependencyManagement {
-    imports {
-        mavenBom("org.springframework.ai:spring-ai-bom:${libs.versions.springAi.get()}")
+    pluginManager.withPlugin("com.diffplug.spotless") {
+        extensions.configure<SpotlessExtension> {
+            encoding("UTF-8")
+
+            java {
+                googleJavaFormat().aosp()
+                removeUnusedImports()
+                importOrder()
+                trimTrailingWhitespace()
+                endWithNewline()
+            }
+
+            kotlin {
+                ktlint()
+            }
+
+            kotlinGradle {
+                ktlint()
+            }
+        }
+
+        pluginManager.withPlugin("java") {
+            extensions.configure<SpotlessExtension> {
+                java {
+                    palantirJavaFormat()
+                    importOrder()
+                    removeUnusedImports()
+                    formatAnnotations()
+                    trimTrailingWhitespace()
+                    endWithNewline()
+                    toggleOffOn()
+                }
+            }
+        }
     }
 }

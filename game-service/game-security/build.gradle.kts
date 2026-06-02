@@ -1,0 +1,13 @@
+plugins {
+    java
+    `java-library`
+}
+
+description = "Game security support"
+
+dependencies {
+    api(project(":game-service:game-domain"))
+    implementation(project(":common:common-web"))
+    implementation("org.springframework.boot:spring-boot-starter-security")
+    testImplementation("org.springframework.security:spring-security-test")
+}
