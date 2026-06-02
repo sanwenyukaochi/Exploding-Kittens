@@ -1,9 +1,11 @@
 import com.diffplug.gradle.spotless.SpotlessExtension
 import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
+import org.gradle.api.JavaVersion
 import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.api.tasks.testing.Test
-import org.springframework.boot.gradle.plugin.SpringBootPlugin
+import org.gradle.jvm.toolchain.JavaLanguageVersion
 import org.springframework.boot.gradle.dsl.SpringBootExtension
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
 
 plugins {
     id("org.springframework.boot") version "4.0.5" apply false
@@ -21,8 +23,8 @@ allprojects {
 }
 
 subprojects {
+
     pluginManager.withPlugin("java") {
-        apply(plugin = "com.diffplug.spotless")
 
         extensions.configure<JavaPluginExtension> {
             sourceCompatibility = JavaVersion.VERSION_26
@@ -33,21 +35,14 @@ subprojects {
             withSourcesJar()
         }
 
-        dependencies {
-            add("compileOnly", "org.projectlombok:lombok")
-            add("annotationProcessor", "org.projectlombok:lombok")
-            add("testCompileOnly", "org.projectlombok:lombok")
-            add("testAnnotationProcessor", "org.projectlombok:lombok")
-            add("implementation", "org.springframework.boot:spring-boot-starter-logging")
-            add("testImplementation", "org.mockito:mockito-core")
-        }
-
-        tasks.withType<Test> {
+        tasks.named<Test>("test") {
             useJUnitPlatform()
         }
+    }
 
-        tasks.named("compileJava") {
-            dependsOn(tasks.named("spotlessCheck"))
+    pluginManager.withPlugin("org.springframework.boot") {
+        extensions.configure<SpringBootExtension> {
+            buildInfo()
         }
     }
 
@@ -57,16 +52,19 @@ subprojects {
                 mavenBom(SpringBootPlugin.BOM_COORDINATES)
             }
             dependencies {
-                dependency("org.springframework.kafka:spring-kafka:${property("springKafkaVersion")}")
-                dependency("io.confluent:kafka-avro-serializer:${property("kafkaAvroSerializerVersion")}")
-                dependency("org.apache.avro:avro:${property("avroVersion")}")
+                dependency("org.springframework.boot:spring-boot-starter-data-jpa")
+                dependency("org.springframework.boot:spring-boot-starter-web")
+                dependency("org.springframework.boot:spring-boot-starter-validation")
+                dependency("org.springframework.boot:spring-boot-starter-actuator")
+                dependency("org.springframework.boot:spring-boot-starter-flyway")
+                dependency("org.flywaydb:flyway-database-postgresql")
+                dependency("org.springframework.boot:spring-boot-starter-data-redis")
+                dependency("org.redisson:redisson:${libs.versions.redisson.get()}")
+                dependency("cn.hutool:hutool-core:${libs.versions.hutool.get()}")
+                dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:${libs.versions.springdoc.get()}")
+                dependency("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
+                dependency("org.projectlombok:lombok")
             }
-        }
-    }
-
-    pluginManager.withPlugin("org.springframework.boot") {
-        extensions.configure<SpringBootExtension> {
-            buildInfo()
         }
     }
 
