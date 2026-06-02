@@ -25,6 +25,8 @@ allprojects {
 subprojects {
 
     pluginManager.withPlugin("java") {
+        pluginManager.apply("io.spring.dependency-management")
+        pluginManager.apply("com.diffplug.spotless")
 
         extensions.configure<JavaPluginExtension> {
             sourceCompatibility = JavaVersion.VERSION_26
@@ -52,18 +54,10 @@ subprojects {
                 mavenBom(SpringBootPlugin.BOM_COORDINATES)
             }
             dependencies {
-                dependency("org.springframework.boot:spring-boot-starter-data-jpa")
-                dependency("org.springframework.boot:spring-boot-starter-web")
-                dependency("org.springframework.boot:spring-boot-starter-validation")
-                dependency("org.springframework.boot:spring-boot-starter-actuator")
-                dependency("org.springframework.boot:spring-boot-starter-flyway")
-                dependency("org.flywaydb:flyway-database-postgresql")
-                dependency("org.springframework.boot:spring-boot-starter-data-redis")
                 dependency("org.redisson:redisson:${libs.versions.redisson.get()}")
                 dependency("cn.hutool:hutool-core:${libs.versions.hutool.get()}")
                 dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:${libs.versions.springdoc.get()}")
                 dependency("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
-                dependency("org.projectlombok:lombok")
             }
         }
     }
