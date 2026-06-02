@@ -2,7 +2,6 @@ package com.kittens.exploding.game.domain.card;
 
 import com.kittens.exploding.common.domain.entity.AggregateRoot;
 import com.kittens.exploding.game.domain.draw.DrawType;
-import com.kittens.exploding.game.domain.valueObject.CardId;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

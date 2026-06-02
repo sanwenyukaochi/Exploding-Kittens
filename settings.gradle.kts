@@ -54,6 +54,8 @@ include(
 
     "game-service:game-container",
     "game-service:game-domain",
+    "game-service:game-domain:game-application-service",
+    "game-service:game-domain:game-domain-core",
     "game-service:game-data-access",
     "game-service:game-realtime",
     "game-service:game-security",
