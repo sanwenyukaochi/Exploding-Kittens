@@ -1,4 +1,4 @@
-package com.kittens.exploding.game.domain.valueObject;
+package com.kittens.exploding.game.domain.card;
 
 import com.kittens.exploding.common.domain.valueObject.BaseId;
 
