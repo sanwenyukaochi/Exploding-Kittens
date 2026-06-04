@@ -1,12 +1,7 @@
 pluginManagement {
     repositories {
         mavenCentral()
-        maven { setUrl("https://maven.aliyun.com/repository/central") }
-        maven { setUrl("https://maven.aliyun.com/repository/jcenter") }
-        maven { setUrl("https://maven.aliyun.com/repository/google") }
-        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
-        maven { setUrl("https://maven.aliyun.com/repository/public") }
-        maven { setUrl("https://jitpack.io") }
+        maven { setUrl("https://packages.confluent.io/maven/") }
         gradlePluginPortal()
         google()
     }
@@ -17,12 +12,7 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         mavenCentral()
-        maven { setUrl("https://maven.aliyun.com/repository/central") }
-        maven { setUrl("https://maven.aliyun.com/repository/jcenter") }
-        maven { setUrl("https://maven.aliyun.com/repository/google") }
-        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
-        maven { setUrl("https://maven.aliyun.com/repository/public") }
-        maven { setUrl("https://jitpack.io") }
+        maven { setUrl("https://packages.confluent.io/maven/") }
         google()
     }
 }
@@ -36,8 +26,10 @@ include(
     "common:common-utils",
 
     "infrastructure:middleware",
+    "infrastructure:middleware:redis",
+    "infrastructure:middleware:rabbit",
+    "infrastructure:middleware:kafka",
     "infrastructure:websocket",
-    "infrastructure:redis-lock",
     "infrastructure:outbox",
     "infrastructure:saga",
     "infrastructure:id-generator",

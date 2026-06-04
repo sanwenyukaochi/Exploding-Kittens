@@ -10,10 +10,6 @@ description = "Game service boot application"
 
 dependencies {
     implementation(project(":common:common-web"))
-    implementation(project(":infrastructure:middleware"))
-    implementation(project(":infrastructure:websocket"))
-    implementation(project(":infrastructure:redis-lock"))
-    implementation(project(":infrastructure:id-generator"))
     implementation(project(":game-service:game-domain"))
     implementation(project(":game-service:game-data-access"))
     implementation(project(":game-service:game-realtime"))

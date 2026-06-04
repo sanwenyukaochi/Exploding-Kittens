@@ -54,6 +54,8 @@ subprojects {
                 mavenBom(SpringBootPlugin.BOM_COORDINATES)
             }
             dependencies {
+                dependency("io.confluent:kafka-avro-serializer:${libs.versions.kafkaAvroSerializer.get()}")
+                dependency("org.apache.avro:avro:${libs.versions.avro.get()}")
                 dependency("org.redisson:redisson:${libs.versions.redisson.get()}")
                 dependency("cn.hutool:hutool-core:${libs.versions.hutool.get()}")
                 dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:${libs.versions.springdoc.get()}")
