@@ -7,4 +7,5 @@ description = "Cross-cutting middleware infrastructure"
 
 dependencies {
     api(project(":infrastructure:middleware:kafka:kafka-config-data"))
+    api(project(":infrastructure:middleware:rabbit:rabbit-config-data"))
 }
