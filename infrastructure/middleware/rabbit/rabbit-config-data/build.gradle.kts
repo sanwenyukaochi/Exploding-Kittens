@@ -7,8 +7,7 @@ plugins {
 description = "Distributed lock infrastructure"
 
 dependencies {
-    api(project(":common:common-application"))
-    api(project(":infrastructure:middleware:rabbit:rabbit-config-data"))
+    compileOnly("org.projectlombok:lombok")
+    annotationProcessor("org.projectlombok:lombok")
     implementation("org.springframework.boot:spring-boot-starter-amqp")
-    implementation("org.redisson:redisson:${libs.versions.redisson.get()}")
 }
