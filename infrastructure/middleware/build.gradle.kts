@@ -6,5 +6,5 @@ plugins {
 description = "Cross-cutting middleware infrastructure"
 
 dependencies {
-    api(project(":common:common-application"))
+    api(project(":infrastructure:middleware:kafka:kafka-config-data"))
 }
