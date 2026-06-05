@@ -37,3 +37,16 @@ out/
 .vscode/
 .env
 logs/
+ReverseContext/
+.omx/
+.codex/*
+!.codex/agents/
+!.codex/agents/**
+!.codex/skills/
+!.codex/skills/**
+.codex/skills/.system/**
+!.codex/prompts/
+!.codex/prompts/**
+.codex
+Kittens_5.3.11_project/Assemblies
+Kittens_5.3.11_project/Assets
