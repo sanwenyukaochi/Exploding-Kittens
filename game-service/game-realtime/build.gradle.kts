@@ -6,7 +6,7 @@ plugins {
 description = "Game realtime adapters"
 
 dependencies {
-    api(project(":game-service:game-domain"))
+    implementation(project(":game-service:game-domain:game-application-service"))
     implementation(project(":common:common-web"))
     implementation(project(":infrastructure:websocket"))
 }

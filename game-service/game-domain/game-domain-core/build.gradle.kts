@@ -6,7 +6,7 @@ plugins {
 description = "Game bounded context domain model"
 
 dependencies {
-    api(project(":common:common-domain"))
+    implementation(project(":common:common-domain"))
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
 }

@@ -6,8 +6,7 @@ plugins {
 description = "Game security support"
 
 dependencies {
-    api(project(":game-service:game-domain"))
-    implementation(project(":common:common-web"))
+    implementation(project(":game-service:game-domain:game-application-service"))
     implementation("org.springframework.boot:spring-boot-starter-security")
     testImplementation("org.springframework.security:spring-security-test")
 }
