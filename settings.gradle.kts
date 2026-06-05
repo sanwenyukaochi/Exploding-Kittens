@@ -49,8 +49,11 @@ include(
     "user-service:user-data-access",
     "user-service:user-security",
 
+    "room-service:room-application",
     "room-service:room-container",
     "room-service:room-domain",
+    "room-service:room-domain:room-application-service",
+    "room-service:room-domain:room-domain-core",
     "room-service:room-data-access",
     "room-service:room-security",
 

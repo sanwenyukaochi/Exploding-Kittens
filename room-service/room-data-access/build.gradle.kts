@@ -6,8 +6,7 @@ plugins {
 description = "Room persistence adapters"
 
 dependencies {
-    api(project(":room-service:room-domain"))
-    implementation(project(":common:common-application"))
+    implementation(project(":room-service:room-domain:room-application-service"))
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     runtimeOnly("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
 }
