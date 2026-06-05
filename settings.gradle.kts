@@ -62,7 +62,10 @@ include(
     "game-service:game-realtime",
     "game-service:game-security",
 
+    "settlement-service:settlement-application",
     "settlement-service:settlement-container",
     "settlement-service:settlement-domain",
+    "settlement-service:settlement-domain:settlement-application-service",
+    "settlement-service:settlement-domain:settlement-domain-core",
     "settlement-service:settlement-data-access"
 )
