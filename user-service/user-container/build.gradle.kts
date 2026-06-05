@@ -9,9 +9,10 @@ plugins {
 description = "User service boot application"
 
 dependencies {
-    implementation(project(":common:common-web"))
-    implementation(project(":user-service:user-domain"))
+    implementation(project(":user-service:user-domain:user-domain-core"))
+    implementation(project(":user-service:user-domain:user-application-service"))
+    implementation(project(":user-service:user-application"))
     implementation(project(":user-service:user-data-access"))
     implementation(project(":user-service:user-security"))
-    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("org.springframework.boot:spring-boot-starter")
 }
