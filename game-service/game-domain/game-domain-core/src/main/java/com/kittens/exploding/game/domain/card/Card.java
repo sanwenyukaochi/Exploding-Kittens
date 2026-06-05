@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public final class Card extends AggregateRoot<CardId> {
     // public final Texture Texture;
-    private final CardCategory category;
+    private final TextureFilename category;
     private final String personalityCaption;
     private final String jukeboxId;
 
