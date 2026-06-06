@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Yourturn
+  rotate: false
+  xy: 2, 54
+  size: 692, 362
+  orig: 692, 362
+  offset: 0, 0
+  index: -1
+Yourturn.Clouds
+  rotate: true
+  xy: 696, 170
+  size: 788, 262
+  orig: 788, 262
+  offset: 0, 0
+  index: -1
+Yourturn.Glow
+  rotate: false
+  xy: 2, 418
+  size: 540, 540
+  orig: 540, 540
+  offset: 0, 0
+  index: -1
