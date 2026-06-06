@@ -1,13 +1,16 @@
-package com.kittens.exploding.game.domain.card;
+package com.kittens.exploding.common.base_domain;
 
-import com.kittens.exploding.common.domain.entity.AggregateRoot;
-import com.kittens.exploding.game.domain.draw.DrawType;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
 @RequiredArgsConstructor
-public final class Card extends AggregateRoot<CardId> {
+public class Card {
+    private final String id;
     // private final Texture texture;
-    private final com.kittens.exploding.common.base_domain.CardCategory category;
+    private final CardCategory category;
     private final String personalityCaption;
     private final String jukeboxId;
 
