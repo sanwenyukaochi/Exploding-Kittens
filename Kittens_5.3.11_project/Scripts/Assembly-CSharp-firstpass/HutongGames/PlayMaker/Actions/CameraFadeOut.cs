@@ -1,0 +1,46 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions
+{
+	[Tooltip("Fade to a fullscreen Color. NOTE: Uses OnGUI so requires a PlayMakerGUI component in the scene.")]
+	[ActionCategory(ActionCategory.Camera)]
+	public class CameraFadeOut : FsmStateAction
+	{
+		[RequiredField]
+		[Tooltip("Color to fade to. E.g., Fade to black.")]
+		public FsmColor color;
+
+		[RequiredField]
+		[Tooltip("Fade out time in seconds.")]
+		[HasFloatSlider(0f, 10f)]
+		public FsmFloat time;
+
+		[Tooltip("Optional Event to send when finished.")]
+		public FsmEvent finishEvent;
+
+		[Tooltip("Ignore TimeScale. Useful if the game is paused.")]
+		public bool realTime;
+
+		private float startTime;
+
+		private float currentTime;
+
+		private Color colorLerp;
+
+		public override void Reset()
+		{
+		}
+
+		public override void OnEnter()
+		{
+		}
+
+		public override void OnUpdate()
+		{
+		}
+
+		public override void OnGUI()
+		{
+		}
+	}
+}
