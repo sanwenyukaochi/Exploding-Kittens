@@ -1,7 +1,0 @@
-namespace System
-{
-	internal static class EmptyArray<T>
-	{
-		public static readonly T[] Value;
-	}
-}
