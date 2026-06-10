@@ -1,15 +1,31 @@
 import com.diffplug.gradle.spotless.SpotlessExtension
+import com.vanniktech.dependency.graph.generator.DependencyGraphGeneratorExtension
+import com.vanniktech.dependency.graph.generator.DependencyGraphGeneratorPlugin
+import guru.nidi.graphviz.attribute.Color
+import guru.nidi.graphviz.attribute.Style
 import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
 import org.springframework.boot.gradle.dsl.SpringBootExtension
 import org.springframework.boot.gradle.plugin.SpringBootPlugin
+
 plugins {
     id("org.springframework.boot") version "4.0.6" apply false
     id("io.spring.dependency-management") version "1.1.7" apply false
-    id("com.diffplug.spotless") version "8.6.0" apply false
+    id("com.diffplug.spotless") version "8.6.0"
+    id("com.vanniktech.dependency.graph.generator") version "0.8.0"
 }
 
 repositories {
     mavenCentral()
+}
+
+plugins.apply(DependencyGraphGeneratorPlugin::class.java)
+
+configure<DependencyGraphGeneratorExtension> {
+    generators.create("jetbrainsLibraries") {
+        include = { dependency -> dependency.moduleGroup.startsWith("org.jetbrains") }
+        children = { true }
+        dependencyNode = { node, _ -> node.add(Style.FILLED, Color.rgb("#AF1DF5")) }
+    }
 }
 
 allprojects {
@@ -49,7 +65,8 @@ allprojects {
 
             toml {
                 target("**/*.toml")
-                versionCatalog().stripQuotedKeys(true)
+                versionCatalog()
+                    .stripQuotedKeys(true)
                 trimTrailingWhitespace()
                 endWithNewline()
             }
@@ -57,7 +74,7 @@ allprojects {
             json {
                 target("**/*.json")
                 gson()
-                    .indentWithSpaces(2)
+                    .indentWithSpaces(4)
                     .sortByKeys()
                     .escapeHtml()
             }
