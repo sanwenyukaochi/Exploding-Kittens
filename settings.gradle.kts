@@ -1,6 +1,8 @@
 rootProject.name = "exploding kittens"
 
 include(
+    "common",
+    "common:common-domain",
     "infrastructure",
     "infrastructure:kafka",
     "infrastructure:kafka:kafka-config-data",
