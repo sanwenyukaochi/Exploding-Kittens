@@ -1,0 +1,277 @@
+id,emoteId,soundName,buttonLabel,transcript
+Bacon,bacon.amazement,emote.bacon.amazement,Amazement,Whoa! YOLO
+Bacon,bacon.bravery,emote.bacon.bravery,Bravery,The only thing to YOLO is YOLO itself
+Bacon,bacon.fear,emote.bacon.fear,Fear,"Oh, NOLO!"
+Bacon,bacon.frustration,emote.bacon.frustration,Frustration,Yo... nonononono
+Bacon,bacon.good_game,emote.bacon.good_game,Good game,"Good game, Oh YOLO"
+Bacon,bacon.good_luck,emote.bacon.good_luck,Good luck,"Good luck, YOLO"
+Bacon,bacon.hello,emote.bacon.hello,Hello,"Hello, YOLO"
+Bacon,bacon.lol,emote.bacon.lol,LOL,L O L O YOLO
+Bacon,bacon.well_played,emote.bacon.well_played,Well played,"Well played, YOLO"
+Bacon,bacon.yolo,emote.bacon.yolo,YOLO,You only live YOLO
+Bear,bear.amazement,emote.bear.amazement,Amazement,Unbearlievable
+Bear,bear.bear_beer,emote.bear.bear_beer,Celebration,"I'm havin' a bear beer to celebrate"
+Bear,bear.bravery,emote.bear.bravery,Bravery,"Hey, it's a party! What's there to be afraid of?"
+Bear,bear.fear,emote.bear.fear,Fear,"I'm a scared bear"
+Bear,bear.frustration,emote.bear.frustration,Frustration,This is unbearable
+Bear,bear.good_game,emote.bear.good_game,Good game,"Good game, who wants a beer?"
+Bear,bear.good_luck,emote.bear.good_luck,Good luck,Good luck
+Bear,bear.hello,emote.bear.hello,Hello,Hello Brah
+Bear,bear.lol,emote.bear.lol,LOL,LOL
+Bear,bear.my_cards_suck,emote.bear.my_cards_suck,My cards suck,My cards suck
+Bear,bear.its_a_party,emote.bear.its_a_party,Party Bear,"I'm a bear and it's a party!"
+Bear,bear.party_bear,emote.bear.partybear,Party hat,"I got my party hat cuz I'm a party bear"
+Bear,bear.raspberries,emote.bear.raspberries,Raspberries,"There's raspberries in my feces"
+Bear,bear.well_played,emote.bear.well_played,Well played,"Well played, bro dog"
+Bunny,bunny.amazement,emote.bunny.amazement,Amazement,Ooooooh!
+Bunny,bunny.bravery,emote.bunny.bravery,Bravery,"I'm not afraid of anything"
+Bunny,bunny.fear,emote.bunny.fear,Fear,Oh noooooo!
+Bunny,bunny.frustration,emote.bunny.frustration,Frustration,This is making me rather... ANGRY
+Bunny,bunny.good_game,emote.bunny.good_game,Good game,Good game!
+Bunny,bunny.good_luck,emote.bunny.good_luck,Good luck,Good luck!
+Bunny,bunny.hello,emote.bunny.hello,Hello,Oh hi!
+Bunny,bunny.i_wouldnt,emote.bunny.i_wouldnt,"I wouldn't","I wouldn't draw that card if I were you"
+Bunny,bunny.lol,emote.bunny.lol,Lol,Hee hee!
+Bunny,bunny.trap,emote.bunny.trap,Trap,You fell right into my TRAP!
+Bunny,bunny.well_played,emote.bunny.well_played,Well Played,Well played!
+Core,core.arg,emote.core.arg,*Argghhh*,*Arggghhhh*
+Core,core.boohoohoo,emote.core.boohoohoo,Boohoohoo,[crying]
+Core,core.cant_believe,emote.core.cant_believe,"Can't believe","I can't believe it"
+Core,core.everything_ok,emote.core.everything_ok,Everything ok,Everything is going to be okay
+Core,core.fear_nothing,emote.core.fear_nothing,Fear nothing,I fear nothing
+Core,core.full_of_fear,emote.core.full_of_fear,Full of fear,I am full of fear!
+Core,core.good_feeling,emote.core.good_feeling,Good feeling,"I've got a good feeling about this"
+Core,core.good_game,emote.core.good_game,Good game,Good game!
+Core,core.good_luck,emote.core.good_luck,Good luck,Good luck!
+Core,core.gosh_darnit,emote.core.gosh_darnit,Gosh darnit,Gosh darnit
+Core,core.hello,emote.core.hello,Hello,Hello
+Core,core.holy_smokes,emote.core.holy_smokes,Holy smokes,Holy smokes
+Core,core.lol,emote.core.lol,Lol,LOLOLOLOLOLOLOL
+Core,core.so_scurrrd,emote.core.so_scurrrd,So scurrd,"I'm so scurrrd"
+Core,core.well_played,emote.core.well_played,Well played,Well played
+Core,core.why_me,emote.core.why_me,Why me,Why me?!
+Core,core.wow,emote.core.wow,Wow,Wow
+Corndog,corndog.amazement,emote.corndog.amazement,Amazement,That was amazing
+Corndog,corndog.bravery,emote.corndog.bravery,Bravery,I am a brave corndog
+Corndog,corndog.corn_and_dogs,emote.corndog.corn_and_dogs,Corn and dogs,I am made of corn and also some dogs
+Corndog,corndog.fear,emote.corndog.fear,Fear,I am scared
+Corndog,corndog.frustration,emote.corndog.frustration,Frustration,This sucks big ones
+Corndog,corndog.good_game,emote.corndog.good_game,Good game,That was a nice game
+Corndog,corndog.good_luck,emote.corndog.good_luck,Good luck,Good luck!
+Corndog,corndog.hello,emote.corndog.hello,Hello,Oh hello
+Corndog,corndog.lol,emote.corndog.lol,Lol,Ha ha ha ha
+Corndog,corndog.mustard,emote.corndog.mustard,Mustard,Cover my body in mustard
+Corndog,corndog.my_plan,emote.corndog.my_plan,My plan,My plan worked perfectly
+Corndog,corndog.stick_deep_inside,emote.corndog.stick_deep_inside,Stick deep inside,I have a stick deep inside me
+Corndog,corndog.well_played,emote.corndog.well_played,Well played,Well played
+Eggplant,eggplant.ahh,emote.eggplant.ahh,Ahh,[contented sigh]
+Eggplant,eggplant.amazement,emote.eggplant.amazement,Amazement,Incredible
+Eggplant,eggplant.bravery,emote.eggplant.bravery,Bravery,This is gonna to feel real nice
+Eggplant,eggplant.fear,emote.eggplant.fear,Fear,"I'm scared. Will somebody hold my hand?"
+Eggplant,eggplant.frustration,emote.eggplant.frustration,Frustration,Oh nooo!
+Eggplant,eggplant.good_game,emote.eggplant.good_game,Good game,That was soo good
+Eggplant,eggplant.good_luck,emote.eggplant.good_luck,Good luck,Best of luck!
+Eggplant,eggplant.hello,emote.eggplant.hello,Hello,Hello
+Eggplant,eggplant.justalittle,emote.eggplant.justalittle,Just a little,"Yeah, just a little eggplant"
+Eggplant,eggplant.lol,emote.eggplant.lol,Lol,[sultry chuckle]
+Eggplant,eggplant.ooh,emote.eggplant.ooh,Ooh,Oooh
+Eggplant,eggplant.yeah,emote.eggplant.yeah,Yeah,Yeah oh ooooh
+Eggplant,eggplant.well_played,emote.eggplant.well_played,Well played,Nice job
+Kale,kale.amazement,emote.kale.amazement,Amazement,Incredible
+Kale,kale.bravery,emote.kale.bravery,Bravery,I got this
+Kale,kale.eat_your_kale,emote.kale.eat_your_kale,Eat your kale,Eat your kale
+Kale,kale.fear,emote.kale.fear,Fear,"I'm in trouble now"
+Kale,kale.frustration,emote.kale.frustration,Frustration,"Big fish naggety friggin' friggin'"
+Kale,kale.good_game,emote.kale.good_game,Good game,Good good game
+Kale,kale.good_luck,emote.kale.good_luck,Good luck,Good luck!
+Kale,kale.hate_you,emote.kale.hate_you,Hate you,I hate you for that
+Kale,kale.hello,emote.kale.hello,Hello,Greetings
+Kale,kale.lol,emote.kale.lol,Lol,That makes me lawl
+Kale,kale.nutritious,emote.kale.nutritious,Nutritious,"Kale, nutritious and disappointing"
+Kale,kale.well_played,emote.kale.well_played,Well played,Well played
+Owl,owl.amazement,emote.owl.amazement,Amazement,[amazement]
+Owl,owl.bravery,emote.owl.bravery,Bravery,[bravery]
+Owl,owl.fear,emote.owl.fear,Fear,[fear]
+Owl,owl.frustration,emote.owl.frustration,Frustration,[frustration]
+Owl,owl.good_game,emote.owl.good_game,Good game,[good game]
+Owl,owl.good_luck,emote.owl.good_luck,Good luck,[good luck]
+Owl,owl.hello,emote.owl.hello,Hello,[hello]
+Owl,owl.lol,emote.owl.lol,Lol,[LOL]
+Owl,owl.tantrum,emote.owl.tantrum,Tantrum,[tantrum]
+Owl,owl.well_played,emote.owl.well_played,Well played,[well played]
+Pizza,pizza.amazement,emote.pizza.amazement,Amazement,Unbelievable
+Pizza,pizza.barf,emote.pizza.barf,Barf,[vomiting]
+Pizza,pizza.bravery,emote.pizza.bravery,Bravery,"I'm not scared of kittens"
+Pizza,pizza.dont_attack,emote.pizza.dont_attack,"Don't attack","Don't attack me. I'm made of cheesy yum yums."
+Pizza,pizza.fear,emote.pizza.fear,Fear,"I'm so unhappy"
+Pizza,pizza.frustration,emote.pizza.frustration,Frustration,That makes me mad mad
+Pizza,pizza.good_game,emote.pizza.good_game,Good game,Oh. Good game.
+Pizza,pizza.good_luck,emote.pizza.good_luck,Good luck,Best of luck!
+Pizza,pizza.hello,emote.pizza.hello,Hello,"Hello. I'm a pizza"
+Pizza,pizza.lol,emote.pizza.lol,Lol,That gives me pizza giggles
+Pizza,pizza.well_played,emote.pizza.well_played,Well played,You played that well
+Raptor,raptor.ah_ah_ah,emote.raptor.ah_ah_ah,Magic word,"Ah ah ah. You didn't say the magic word."
+Raptor,raptor.amazement,emote.raptor.amazement,Amazement,O M G
+Raptor,raptor.bravery,emote.raptor.bravery,Bravery,"I'm feeling lucky"
+Raptor,raptor.fear,emote.raptor.fear,Fear,"I'm nervous!"
+Raptor,raptor.frustration,emote.raptor.frustration,Frustration,Argh!
+Raptor,raptor.good_game,emote.raptor.good_game,Good game,GG
+Raptor,raptor.good_luck,emote.raptor.good_luck,Good luck,Good luck!
+Raptor,raptor.hello,emote.raptor.hello,Hello,Hello there
+Raptor,raptor.kitten_top,emote.raptor.kitten_top,Kitten on top,There might be a kitten on top
+Raptor,raptor.lol,emote.raptor.lol,Lol,LOLOLOLOLOLOLOL
+Raptor,raptor.singing,emote.raptor.singing,Singing,[wordless poor singing]
+Raptor,raptor.well_played,emote.raptor.well_played,Well played,Clever girl!
+Shark,shark.amazement,emote.shark.amazement,Amazement,O M G
+Shark,shark.bravery,emote.shark.bravery,Bravery,Fear is for the fish
+Shark,shark.brunch,emote.shark.brunch,Brunch,"Let's do brunch"
+Shark,shark.dont_put,emote.shark.dont_put,"Not on top","Don't put it on top"
+Shark,shark.fear,emote.shark.fear,Fear,"I'm a little nervous about this transaction"
+Shark,shark.frustration,emote.shark.frustration,Frustration,That makes me angry
+Shark,shark.good_game,emote.shark.good_game,Good game,That was a jawsome game
+Shark,shark.good_luck,emote.shark.good_luck,Good luck,Best of luck!
+Shark,shark.hate_you,emote.shark.hate_you,Hate you,I hate you so much
+Shark,shark.hello,emote.shark.hello,Hello,The pleasure is mine
+Shark,shark.jenkins,emote.shark.jenkins,Jenkins,Somebody get Jenkins on the line
+Shark,shark.lol,emote.shark.lol,Lol,LOL
+Shark,shark.secretary,emote.shark.secretary,Secretary,My secretary is a fish
+Shark,shark.well_played,emote.shark.well_played,Well played,Well played!
+Shark,shark.whew,emote.shark.whew,Whew,Whew
+Tofu,tofu.amazement,emote.tofu.amazement,Amazement,Sugoi
+Tofu,tofu.bravery,emote.tofu.bravery,Bravery,I am a brave tofu
+Tofu,tofu.fear,emote.tofu.fear,Fear,I am a scared tofu
+Tofu,tofu.frustration,emote.tofu.frustration,Frustration,[This is a pain]
+Tofu,tofu.good_game,emote.tofu.good_game,Good game,[good game]
+Tofu,tofu.good_luck,emote.tofu.good_luck,Good luck,Ganbatte
+Tofu,tofu.hello,emote.tofu.hello,Hello,Konnichiwa
+Tofu,tofu.lol,emote.tofu.lol,Lol,Ha ha ha
+Tofu,tofu.lucky_tofu,emote.tofu.lucky_tofu,Lucky tofu,I am a very lucky tofu
+Tofu,tofu.please_dont_eat,emote.tofu.please_dont_eat,"Please don't eat","Please don't eat me, I'm a gentletofu"
+Tofu,tofu.well_played,emote.tofu.well_played,Well played,Well played!
+Edison,edison.bright_idea,emote.edison.bright_idea,Not bright,"That wasn't such a bright idea"
+Edison,edison.hello,emote.edison.hello,Hello,"Hello, ladies and gentlemen"
+Edison,edison.invented_that,emote.edison.invented_that,My move,"I invented that move"
+Edison,edison.invented_this_game,emote.edison.invented_this_game,My game,"I invented this game"
+Edison,edison.not_fair,emote.edison.not_fair,Not fair,"That's not fair"
+Edison,edison.steal,emote.edison.steal,"Gonna steal","I'm gonna steal your stuff"
+Edison,edison.thank_you,emote.edison.thank_you,Thank you,"Thank you for that!"
+Jesus,jesus.bless,emote.jesus.bless,*Bless*,"May the lord bless these cards"
+Jesus,jesus.fear_no_evil,emote.jesus.fear_no_evil,Fear no evil,"Even though I walk through the valley of kittens, I will fear no evil"
+Jesus,jesus.forgive,emote.jesus.forgive,Forgive you,"I forgive you"
+Jesus,jesus.hallelujah,emote.jesus.hallelujah,Hallelujah,"Hallelujah"
+Jesus,jesus.hello,emote.jesus.hello,Hello,"Hello, my sons"
+Jesus,jesus.jesus_h_christ,emote.jesus.jesus_h_christ,Why?!,"Jesus H. Christ! Why did you do that?"
+Jesus,jesus.power_of_me,emote.jesus.power_of_me,Power of me,"The power of Me compels you!"
+Jesus,jesus.thank_you,emote.jesus.thank_you,Thank you,"I thank thee"
+Satan,satan.burn,emote.satan.burn,You will burn,"You will burn for that!"
+Satan,satan.fear,emote.satan.fear,Fear,"I am your dark lord and I am scared of kittens"
+Satan,satan.hello,emote.satan.hello,Hello,"Hello, I'm the devil."
+Satan,satan.jesus_h_christ,emote.satan.jesus_h_christ,Why?!,"Jesus H. Christ. Why did you do that?"
+Satan,satan.lol,emote.satan.lol,LOL,"Buahahahaha"
+Satan,satan.thank_you,emote.satan.thank_you,Thank you,"Aww... thank you!"
+Satan,satan.toasty_warm_bum_bum,emote.satan.toasty_warm_bum_bum,Warm bum bum,"I have a toasty warm bum bum"
+Satan,satan.welcome,emote.satan.welcome,Welcome to Hell,"Welcome to Hell!"
+Tesla,tesla.amped,emote.tesla.amped,"I'm amped","I am getting rather amped up"
+Tesla,tesla.electrifying,emote.tesla.electrifying,Electrifying,"That was electrifying"
+Tesla,tesla.hello,emote.tesla.hello,Hello,"Hello, my friend"
+Tesla,tesla.i_love_these_cards,emote.tesla.i_love_these_cards,Love these cards,"I love these cards more than I love pigeons"
+Tesla,tesla.please_dont_steal,emote.tesla.please_dont_steal,"Don't steal","Please don't steal my stuff"
+Tesla,tesla.thank_you,emote.tesla.thank_you,Thank you,"My thanks"
+Tesla,tesla.watt_is_love,emote.tesla.watt_is_love,Watt is love,"Watt is love, baby don't hertz me"
+Curie,curie.bonjour,emote.curie.bonjour,Bonjour,Bonjour
+Curie,curie.good_luck,emote.curie.good_luck,Good luck,Good luck
+Curie,curie.idiots,emote.curie.idiots,Idiots,Idiots
+Curie,curie.no_no_no,emote.curie.no_no_no,No no no,"No no no!"
+Curie,curie.attention,emote.curie.attention,Attention!,"Attention!"
+Curie,curie.bravo,emote.curie.bravo,Bravo,"So brave. Bravo! Bravo!"
+Curie,curie.these_cards_radioactive,emote.curie.these_cards_radioactive,Radioactive,"These cards are radioactive."
+Curie,curie.good_game,emote.curie.good_game,Good game,"Good game"
+Curie,curie.this_sucks,emote.curie.this_sucks,This sucks,"This sucks big ones"
+Curie,curie.test_tubes_pantaloons,emote.curie.test_tubes_pantaloons,Test tubes,"Just remember: don't put test tubes in your pantaloons!"
+Darwin,darwin.dontputit,emote.darwin.dontputit,"Don't Put It", "Don't put it on top"
+Darwin,darwin.drunk,emote.darwin.drunk,Drunk,"I'm a gen... drunk... on brandy..."
+Darwin,darwin.extinct,emote.darwin.extinct,Extinct,"You're going to be extinct"
+Darwin,darwin.fittest,emote.darwin.fittest,Survival,"Only the fittest will survive"
+Darwin,darwin.goodluck,emote.darwin.goodluck,"Good luck","Good luck"
+Darwin,darwin.goodgame,emote.darwin.goodgame,"Good game","Good game"
+Darwin,darwin.hello,emote.darwin.hello,"Hello","Hello. It's me, Charles Darwin!"
+Darwin,darwin.hurry,emote.darwin.hurry,Hurry up,"Hurry up!"
+Darwin,darwin.lol,emote.darwin.lol,Lol,"[laughing]"
+Darwin,darwin.natural,emote.darwin.natural,That card,"That card was a natural selection"
+Darwin,darwin.pet_bird,emote.darwin.pet_bird,Pet bird,"I keep a pet bird in my trousers"
+Darwin,darwin.primal,emote.darwin.primal,Primal,"What a primal thing to do!"
+Darwin,darwin.thankyou,emote.darwin.thankyou,"Thank you","Thank you very much"
+Darwin,darwin.trust,emote.darwin.trust,Trust me,"You can trust me. I have a beard!"
+Darwin,darwin.whew,emote.darwin.whew,"Whew","Whew! That was a close one."
+Darwin,darwin.wellplayed,emote.darwin.wellplayed,"Well played","Well played"
+Fsm,fsm.anger,emote.fsm.anger,Anger,"/Anger/"
+Fsm,fsm.good_game,emote.fsm.good_game,Good game,"/Good game/"
+Fsm,fsm.good_luck,emote.fsm.touched_noodly_appendage,Good luck,"/Good luck/"
+Fsm,fsm.greetings,emote.fsm.greetings,Greetings,"/Greetings/"
+Fsm,fsm.lol,emote.fsm.lol,Lol,"/LOL/"
+Fsm,fsm.thank_you,emote.fsm.thank_you,Thank you,"/Thank you/"
+Fsm,fsm.touched,emote.fsm.touched_noodly_appendage,Touched,"/You have been touched by my noodly appendage/"
+Fsm,fsm.well_played,emote.fsm.good_game,Well played,"/Well played/"
+Fsm,fsm.ramen,emote.fsm.lol,Ramen,"/Ramen/"
+Jibbers,jibbers.clawfully_bad,emote.jibbers.clawfully_bad,"You're bad","You're clawfully bad at this!"
+Jibbers,jibbers.fear_my_mussels,emote.jibbers.fear_my_mussels,Fear my mussels,"Fear my mussels!"
+Jibbers,jibbers.holy_shrimp,emote.jibbers.holy_shrimp,Holy shrimp,"Holy shrimp! This scampi happening!"
+Jibbers,jibbers.i_sea_what,emote.jibbers.i_sea_what,"I sea","I sea what you did there"
+Jibbers,jibbers.krilling,emote.jibbers.krilling,"Krilling me","You're krilling me!"
+Jibbers,jibbers.long_tide_no_sea,emote.jibbers.long_tide_no_sea,Long tide,"Long tide, no sea"
+Jibbers,jibbers.please_attack_salmon,emote.jibbers.please_attack_salmon,No attack,"Please attack salmon else"
+Jibbers,jibbers.prawn_again_crustacean,emote.jibbers.prawn_again_crustacean,Prawn again,"Are you a prawn again crustacean?"
+Jibbers,jibbers.shellfish,emote.jibbers.shellfish,Stop,"Stop being so shellfish!"
+Substantial,substantial.amazement,emote.substantial.beep,Amazement,O M G
+Substantial,substantial.bravery,emote.substantial.beep2,Bravery,"I'm feeling lucky"
+Substantial,substantial.fear,emote.substantial.beep3,Fear,"I'm a scared robot"
+Substantial,substantial.argh,emote.substantial.scratch,Argh,Argh!
+Substantial,substantial.good_game,emote.substantial.robot,Good game,Good game
+Substantial,substantial.good_luck,emote.substantial.beep,Good luck,Good luck!
+Substantial,substantial.hello,emote.substantial.beep2,Hello,Hello there
+Substantial,substantial.kitten,emote.substantial.beep3,Kitten on top,There might be a kitten on top
+Substantial,substantial.lol,emote.substantial.beep,Lol,LOL
+Substantial,substantial.well_played,emote.substantial.robot,Well played,Well played
+Kitten,kitten.amazement,emote.kitten.amazement,Holy furball!,Holy furball!
+Kitten,kitten.bravery,emote.kitten.bravery,MEOW or never,"It's MEOW or never!"
+Kitten,kitten.fear,emote.kitten.fear,1 life,There goes one of my lives.
+Kitten,kitten.argh,emote.kitten.frustration,Awww catnip!,Awww catnip!
+Kitten,kitten.good_game,emote.kitten.good_game,Been an honor,"It's been an honor, kitties (??)"
+Kitten,kitten.good_luck,emote.kitten.good_luck,Good luck,May the FURS be with ya.
+Kitten,kitten.hello,emote.kitten.hello,get to work!,"All right, kitties. Let's get to work!"
+Kitten,kitten.lol,emote.kitten.lol,Hahaha!,Hahaha!
+Kitten,kitten.well_played,emote.kitten.well_played,PUR-ty dang good,That was PURRR-ty dang good!
+Kitten,kitten.pussy_cat,emote.kitten.pussy_cat,Be Brave!,"Stop bein' a pussy-cat!"
+Kitten,kitten.litter,emote.kitten.litter,Back off!,Back to the litter with ya!
+Kitten,kitten.napawm,emote.kitten.napawm,NaPAWm,"I love the smell of naPAWm in the mornin'!"
+BearODactyl,bearodactyl.amazement,emote.bearodactyl.amazement,(Me oh my!),(Me oh my!)
+BearODactyl,bearodactyl.bravery,emote.bearodactyl.bravery,RAAAWWWRRR!,RAAAWWWRRR!
+BearODactyl,bearodactyl.fear,emote.bearodactyl.fear,(oh no),(oh no)
+BearODactyl,bearodactyl.argh,emote.bearodactyl.frustration,I am sad,"(I think I'm sad. Yes, I am sad)"
+BearODactyl,bearodactyl.good_game,emote.bearodactyl.good_game,(that was fun!),(that was fun!)
+BearODactyl,bearodactyl.good_luck,emote.bearodactyl.good_luck,(good luck),(good luck)
+BearODactyl,bearodactyl.hello,emote.bearodactyl.hello,(hellooooo!),(hellooooo!)
+BearODactyl,bearodactyl.lol,emote.bearodactyl.lol,(hahahahahaha),(hahahahahaha)
+BearODactyl,bearodactyl.well_played,emote.bearodactyl.well_played,(well played),(well played)
+BearODactyl,bearodactyl.thank_you,emote.bearodactyl.thank_you,(thanks),(thanks)
+BearODactyl,bearodactyl.bitch,emote.bearodactyl.bitch,(oh please),(oh please)
+BearODactyl,bearodactyl.bring_it,emote.bearodactyl.bring_it,(bring it on),(bring it on)
+BearODactyl,bearodactyl.get_it_on,emote.bearodactyl.get_it_on,"(let's get it on)","(let's get it on)"
+BearODactyl,bearodactyl.happy_bday,emote.bearodactyl.happy_bday,birthday song,(happy birthday to me)
+BearODactyl,bearodactyl.twinkle,emote.bearodactyl.twinkle,twinkle song,(twinkle twinkle little bear)
+BearODactyl,bearodactyl.singing,emote.bearodactyl.singing,(singing),(singing)
+Squid,squid.amazement,emote.squid.amazement,Wow.,Wow.
+Squid,squid.bravery,emote.squid.bravery,knife,"I've got a knife, see?"
+Squid,squid.fear,emote.squid.fear,Awww tentacles,Awww tentacles...
+Squid,squid.argh,emote.squid.frustration,"Don't mess!","Hey! Don't mess with me!"
+Squid,squid.good_game,emote.squid.good_game,Good game!,"Good game! I'm a knife squid."
+Squid,squid.good_luck,emote.squid.good_luck,Good luck!,Good luck!
+Squid,squid.hello,emote.squid.hello,Hey there!,"Hey there! I'm a knife squid!"
+Squid,squid.lol,emote.squid.lol,Hahaha!,Hahaha!
+Squid,squid.well_played,emote.squid.well_played,High five!,High five... times EIGHT!
+Squid,squid.you_suck,emote.squid.you_suck,You suck!,You SUCKtion cup!
+Squid,squid.im_a_knife_squid,emote.squid.im_a_knife_squid,"I'm a knife squid","I'm a knife squid you see."
+Squid,squid.pink,emote.squid.pink,I am pink!,I am pink!
+Squid,squid.sharp_knife,emote.squid.sharp_knife,My knife is sharp!,My knife is sharp!
+Squid,squid.ink,emote.squid.ink,ink ya,"I'm gonna ink yaA"
+Squid,squid.thank_you,emote.squid.thank_you,Thanks!,"Awww shucks, thanks so much!"

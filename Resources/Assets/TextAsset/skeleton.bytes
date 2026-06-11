@@ -1,0 +1,140 @@
+{
+"skeleton": { "hash": "BNVbsX37j0IUU5Gfsn94Ir6Hys0", "spine": "2.1.27", "width": 630.4, "height": 443.24 },
+"bones": [
+	{ "name": "root", "x": -3.18, "y": -1.06 },
+	{ "name": "Yourturn", "parent": "root", "x": 0.32, "y": -29.37, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "Yourturn.Clouds", "parent": "root", "x": -7.31, "y": -67.96, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "Yourturn.Glow", "parent": "root", "x": -41.81, "y": 84.88, "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "Yourturn.Glow", "bone": "Yourturn.Glow", "attachment": "Yourturn.Glow" },
+	{ "name": "Yourturn.Clouds", "bone": "Yourturn.Clouds", "attachment": "Yourturn.Clouds" },
+	{ "name": "Yourturn", "bone": "Yourturn", "attachment": "Yourturn" }
+],
+"skins": {
+	"default": {
+		"Yourturn": {
+			"Yourturn": { "x": -29.81, "y": 29.27, "width": 692, "height": 362 }
+		},
+		"Yourturn.Clouds": {
+			"Yourturn.Clouds": { "x": -7.37, "y": -11.37, "width": 788, "height": 262 }
+		},
+		"Yourturn.Glow": {
+			"Yourturn.Glow": { "x": 47.01, "y": -49.37, "width": 540, "height": 540 }
+		}
+	}
+},
+"animations": {
+	"yourturn": {
+		"slots": {
+			"Yourturn": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.314, 1, 1, 1 ]
+					},
+					{ "time": 0.8333, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.6666,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2.0666, "color": "ffffff00" }
+				]
+			},
+			"Yourturn.Clouds": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.5666,
+						"color": "ffffff00",
+						"curve": [ 0.314, 1, 1, 1 ]
+					},
+					{ "time": 1.1666, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.4333,
+						"color": "ffffffff",
+						"curve": [ 0.314, 1, 1, 1 ]
+					},
+					{ "time": 2.0333, "color": "ffffff00" }
+				]
+			},
+			"Yourturn.Glow": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.3,
+						"color": "ffffff00",
+						"curve": [ 0.621, 1, 1, 1 ]
+					},
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.5,
+						"color": "ffffffff",
+						"curve": [ 0.267, 0.77, 0.776, 0.95 ]
+					},
+					{ "time": 2.1666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Yourturn.Clouds": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 1, 1, 1 ]
+					},
+					{ "time": 1.1, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.4666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.367, 1 ]
+					},
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"Yourturn": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.314, 1, 1, 1 ]
+					},
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 1.6666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2.6, "x": 0, "y": 0 }
+				]
+			},
+			"Yourturn.Glow": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.1333,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0.314, 1, 1, 1 ]
+					},
+					{
+						"time": 0.4666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.314, 1, 1, 1 ]
+					},
+					{ "time": 1, "x": 1.375, "y": 1.375 }
+				]
+			}
+		}
+	}
+}
+}

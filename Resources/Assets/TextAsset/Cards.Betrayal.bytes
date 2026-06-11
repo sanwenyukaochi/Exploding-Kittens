@@ -1,0 +1,28 @@
+category,idFormat,textureFilename,jukeboxId,soundCaption,2 players,3 players,4 players,5 players
+Bomb,Bomb,bomb.kitten,,,1,2,3,4
+Defuse,Defuse1,Defuse.Catnip,Card.Defuse.Catnip,"Hom, nom, nom, nom, nom...",1,2,2,3
+Defuse,Defuse2,Defuse.Laser,Card.Defuse.Laser,*Pew pew pew*,1,2,2,2
+Defuse,Defuse3,Defuse.Banjo,Card.Defuse.Banjo,,1,1,2,2
+Slap1,Slap1,Slap.1,,,3,4,5,6
+Slap2,Slap2,Slap.2,,,1,1,3,4
+SelfSlap2,SelfSlap2,Slap.Self2,,,1,2,2,3
+SelfSlap3,SelfSlap3,Slap.Self3,,,1,1,2,2
+Skip,Skip1,Skip.Bunnyraptor,Card.Skip.Bunnyraptor,*Roar*,2,2,2,3
+Skip,Skip2,Skip.Sprint,Card.Skip.Sprint,*Meow*,1,2,2,2
+Skip,Skip3,Skip.Nap,Card.Skip.Nap,*Purr*,1,1,2,2
+Steal,Steal1,Steal.Tacocat,Card.Steal.Tacocat,Meow-iachi!,1,1,1,2
+Steal,Steal2,Steal.Rainbow,Card.Steal.Rainbow,*Hrrrrng!*,1,1,1,1
+Steal,Steal3,Steal.Potato,Card.Steal.Potato,Po-ta-to,1,1,1,1
+Steal,Steal4,Steal.Cattermelon,Card.Steal.Cattermelon,*Hack-thoop!*,0,1,1,1
+Shuffle,Shuffle,Shuffle.Litterbox,Card.Shuffle,*DIG* Ooooh *DIG* Oh!,2,3,3,4
+Future1,Future1,STF.Goggles1,Card.STF.Goggles,*BWEEE*,0,0,0,0
+Future3,Future3.1,STF.Mantis3,Card.STF.Mantis,"One, two, three, Kittens!",1,1,2,2
+Future3,Future3.2,STF.Pigacorn3,Card.STF.Pigacorn,*SQUEAL*,1,1,1,1
+Future5,Future5,STF.Bear5,Card.STF.Bear,I see everything!,0,0,0,0
+Reverse,Reverse1,Reverse.Backwards,Card.Reverse.Engine,*BEEP* *BEEP*,0,2,2,3
+Reverse,Reverse2,Reverse.SirScratch,Card.Reverse.SirScratch,*WICKA WICKA BLARRRGB*,0,1,2,2
+FakeShuffle,FakeShuffle,Fake.Shuffle,Card.Shuffle,*DIG* Ooooh *DIG* Oh!,1,1,2,2
+CatomicBomb,CatomicBomb,CatomicBomb,Card.CatomicBomb,,1,1,2,2
+Alter2,Alter2,ATF.Furmaid,Card.ATF.Furmaid,Hahaha,1,2,2,2
+Alter3,Alter3,ATF.Manatee,Card.ATF.Manatee,MOOOOOOOOO...,1,1,2,3
+DrawFromBottom,DrawFromBottom,DFB,Card.DFB,Waaah!,2,3,4,4
