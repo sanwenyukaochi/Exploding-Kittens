@@ -1,0 +1,28 @@
+category,idFormat,textureFilename,jukeboxId,soundCaption,2 players,3 players,4 players,5 players
+Bomb,Bomb,bomb.kitten,,,2,3,4,5
+Defuse,Defuse1,Defuse.Catnip,Card.Defuse.Catnip,"Hom, nom, nom, nom, nom...",1,2,2,3
+Defuse,Defuse2,Defuse.Laser,Card.Defuse.Laser,*Pew pew pew*,1,2,2,2
+Defuse,Defuse3,Defuse.Banjo,Card.Defuse.Banjo,,1,1,2,2
+StreakingKitten,StreakingKitten,StreakingKitten,Card.StreakingKittens,,1,1,1,1
+Slap1,Slap1,Slap.1,,,2,2,4,5
+Slap2,Slap2,Slap.2,,,2,3,3,4
+Skip,Skip1,Skip.Bunnyraptor,Card.Skip.Bunnyraptor,*Roar*,1,2,2,2
+Skip,Skip2,Skip.Sprint,Card.Skip.Sprint,*Meow*,1,1,1,1
+Skip,Skip3,Skip.Nap,Card.Skip.Nap,*Purr*,1,1,1,2
+SuperSkip,SuperSkip,SuperSkip,Card.SuperSkip,,1,1,2,2
+Reverse,Reverse1,Reverse.Backwards,Card.Reverse.Engine,*BEEP* *BEEP*,0,2,2,3
+Reverse,Reverse2,Reverse.SirScratch,Card.Reverse.SirScratch,*WICKA WICKA BLARRRGB*,0,1,2,2
+DrawFromBottom,DrawFromBottom,DFB,Card.DFB,Waaah!,2,2,3,4
+SwapTopBottom,SwapTopBottom,SwapTopBottom,Card.SwapTopBottom,,2,2,3,3
+Steal,Steal1,Steal.Tacocat,Card.Steal.Tacocat,Meow-iachi!,1,1,1,2
+Steal,Steal2,Steal.Rainbow,Card.Steal.Rainbow,*Hrrrrng!*,1,1,1,1
+Steal,Steal3,Steal.Potato,Card.Steal.Potato,Po-ta-to,1,1,1,1
+Steal,Steal4,Steal.Cattermelon,Card.Steal.Cattermelon,*Hack-thoop!*,0,1,1,1
+Shuffle,Shuffle,Shuffle.Litterbox,Card.Shuffle,*DIG* Ooooh *DIG* Oh!,2,3,3,4
+Future3,Future3.1,STF.Mantis3,Card.STF.Mantis,"One, two, three, Kittens!",1,1,2,2
+Future3,Future3.2,STF.Pigacorn3,Card.STF.Pigacorn,*SQUEAL*,0,1,1,2
+Future5,Future5,STF.Angler5,Card.STF.PigNew,,1,1,1,1
+Alter5,Alter5,ATF.Tesla,Card.ATF.Tesla,,1,1,1,1
+AttackCatButt,Attack.CatButt,Attack.CatButt,Card.Attack.CatButt,Kitty cat butt butt!,2,2,3,3
+CatomicBomb,CatomicBomb,CatomicBomb,Card.CatomicBomb,,1,1,2,2
+GarbageCollection,GarbageCollection,GarbageCollection,Card.GarbageTruckBackingUp,,1,1,1,1
