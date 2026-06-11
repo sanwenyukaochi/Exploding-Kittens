@@ -12,4 +12,5 @@ include(
     "infrastructure:rabbit:rabbit-consumer",
     "infrastructure:rabbit:rabbit-producer",
     "infrastructure:redis",
+    "infrastructure:redis:redis-config-data",
 )
