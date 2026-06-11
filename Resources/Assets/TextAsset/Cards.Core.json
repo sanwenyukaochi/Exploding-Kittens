@@ -1,0 +1,99 @@
+{
+    "cards": [
+        {
+            "category": "Bomb",
+            "id": "Bomb",
+            "textureFileName": "bomb.kitten"
+        },
+        {
+            "category": "Defuse",
+            "id": "Defuse1",
+            "textureFileName": "Defuse.Catnip"
+        },
+        {
+            "category": "Defuse",
+            "id": "Defuse2",
+            "textureFileName": "Defuse.Laser"
+        },
+        {
+            "category": "Defuse",
+            "id": "Defuse3",
+            "textureFileName": "Defuse.Banjo"
+        },
+        {
+            "category": "Slap1",
+            "id": "Slap1",
+            "textureFileName": "Slap.1"
+        },
+        {
+            "category": "Slap2",
+            "id": "Slap2",
+            "textureFileName": "Slap.2"
+        },
+        {
+            "category": "Skip",
+            "id": "Skip1",
+            "textureFileName": "Skip.Bunnyraptor"
+        },
+        {
+            "category": "Skip",
+            "id": "Skip2",
+            "textureFileName": "Skip.Sprint"
+        },
+        {
+            "category": "Skip",
+            "id": "Skip3",
+            "textureFileName": "Skip.Nap"
+        },
+        {
+            "category": "Steal",
+            "id": "Steal1",
+            "textureFileName": "Steal.Tacocat"
+        },
+        {
+            "category": "Steal",
+            "id": "Steal2",
+            "textureFileName": "Steal.Rainbow"
+        },
+        {
+            "category": "Steal",
+            "id": "Steal3",
+            "textureFileName": "Steal.Potato"
+        },
+        {
+            "category": "Steal",
+            "id": "Steal4",
+            "textureFileName": "Steal.Cattermelon"
+        },
+        {
+            "category": "Shuffle",
+            "id": "Shuffle",
+            "textureFileName": "Shuffle.Litterbox"
+        },
+        {
+            "category": "Future3",
+            "id": "Future3.1",
+            "textureFileName": "STF.Mantis3"
+        },
+        {
+            "category": "Future3",
+            "id": "Future3.2",
+            "textureFileName": "STF.Pigacorn3"
+        },
+        {
+            "category": "Reverse",
+            "id": "Reverse1",
+            "textureFileName": "Reverse.Backwards"
+        },
+        {
+            "category": "Reverse",
+            "id": "Reverse2",
+            "textureFileName": "Reverse.SirScratch"
+        },
+        {
+            "category": "DrawFromBottom",
+            "id": "DrawFromBottom",
+            "textureFileName": "DFB"
+        }
+    ]
+}
