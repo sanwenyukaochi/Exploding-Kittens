@@ -13,4 +13,33 @@ public class Card extends AggregateRoot<CardId> {
     public boolean IsMarked;
     public DrawType DrawType;
     public Player PlacingPlayer;
+
+    public void Reset()
+    {
+    }
+
+    public void MarkCard()
+    {
+    }
+
+    public void UnMarkCard()
+    {
+    }
+
+    public void SprayWithDiarrhea()
+    {
+    }
+
+    public void WipeUpDiarrhea()
+    {
+    }
+
+    public void Disguise()
+    {
+    }
+
+    public void ShedDisguise()
+    {
+    }
+
 }
