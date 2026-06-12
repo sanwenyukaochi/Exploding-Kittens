@@ -112,6 +112,8 @@ subprojects {
                 dependency("cn.hutool:hutool-core:${libs.versions.hutool.get()}")
                 dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:${libs.versions.springdoc.get()}")
                 dependency("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
+                dependency("io.cucumber:cucumber-java:${libs.versions.cucumber.get()}")
+                dependency("io.cucumber:cucumber-junit:${libs.versions.cucumber.get()}")
             }
         }
     }
