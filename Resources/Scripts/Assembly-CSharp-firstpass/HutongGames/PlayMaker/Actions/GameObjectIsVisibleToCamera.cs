@@ -1,0 +1,52 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions
+{
+	[ActionTarget(typeof(GameObject), "gameObject", false)]
+	[ActionCategory(ActionCategory.Logic)]
+	[Tooltip("Tests if a Game Object is visible to a specific camera. Note, using bounds is a little more expensive than using the center point.")]
+	public class GameObjectIsVisibleToCamera : ComponentAction<Renderer, Camera>
+	{
+		[RequiredField]
+		[CheckForComponent(typeof(Renderer))]
+		[Tooltip("The GameObject to test.")]
+		public FsmOwnerDefault gameObject;
+
+		[Tooltip("The GameObject with the Camera component.")]
+		public FsmGameObject camera;
+
+		[Tooltip("Use the bounds of the GameObject. Otherwise uses just the center point.")]
+		public FsmBool useBounds;
+
+		[Tooltip("Event to send if the GameObject is visible.")]
+		public FsmEvent trueEvent;
+
+		[Tooltip("Event to send if the GameObject is NOT visible.")]
+		public FsmEvent falseEvent;
+
+		[UIHint(UIHint.Variable)]
+		[Tooltip("Store the result in a bool variable.")]
+		public FsmBool storeResult;
+
+		[Tooltip("Perform this action every frame.")]
+		public bool everyFrame;
+
+		private Camera cameraComponent => null;
+
+		public override void Reset()
+		{
+		}
+
+		public override void OnEnter()
+		{
+		}
+
+		public override void OnUpdate()
+		{
+		}
+
+		private void DoIsVisible()
+		{
+		}
+	}
+}
