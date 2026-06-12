@@ -1,0 +1,43 @@
+using System;
+
+[Serializable]
+public enum CardCategory
+{
+	Defuse = 0,
+	Bomb = 1,
+	Skip = 2,
+	Shuffle = 5,
+	Steal = 6,
+	DrawFromBottom = 8,
+	Reverse = 9,
+	ChickenParty = 10,
+	Diarrhea1 = 11,
+	Diarrhea2 = 3,
+	Slap1 = 12,
+	Slap2 = 13,
+	Slap3 = 14,
+	AttackCatButt = 15,
+	Future1 = 7,
+	Future3 = 4,
+	Future5 = 16,
+	Alter2 = 17,
+	Alter3 = 18,
+	Alter5 = 19,
+	FakeShuffle = 20,
+	KittenRollCall = 21,
+	SelfSlap2 = 23,
+	SelfSlap3 = 24,
+	None = 22,
+	StreakingKitten = 25,
+	SuperSkip = 26,
+	SwapTopBottom = 27,
+	CatomicBomb = 28,
+	GarbageCollection = 29,
+	Mark = 30,
+	BarkingKitten = 31,
+	TakeThat = 32,
+	Bury = 33,
+	PotLuck = 34,
+	TowerOfPower = 35,
+	ShareTheFuture = 36
+}

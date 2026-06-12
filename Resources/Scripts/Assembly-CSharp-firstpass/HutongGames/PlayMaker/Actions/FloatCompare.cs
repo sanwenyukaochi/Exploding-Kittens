@@ -1,0 +1,52 @@
+namespace HutongGames.PlayMaker.Actions
+{
+	[Tooltip("Sends Events based on the comparison of 2 Floats.")]
+	[ActionCategory(ActionCategory.Logic)]
+	public class FloatCompare : FsmStateAction
+	{
+		[Tooltip("The first float variable.")]
+		[RequiredField]
+		public FsmFloat float1;
+
+		[Tooltip("The second float variable.")]
+		[RequiredField]
+		public FsmFloat float2;
+
+		[Tooltip("Tolerance for the Equal test (almost equal).\nNOTE: Floats that look the same are often not exactly the same, so you often need to use a small tolerance.")]
+		[RequiredField]
+		public FsmFloat tolerance;
+
+		[Tooltip("Event sent if Float 1 equals Float 2 (within Tolerance)")]
+		public FsmEvent equal;
+
+		[Tooltip("Event sent if Float 1 is less than Float 2")]
+		public FsmEvent lessThan;
+
+		[Tooltip("Event sent if Float 1 is greater than Float 2")]
+		public FsmEvent greaterThan;
+
+		[Tooltip("Repeat every frame. Useful if the variables are changing and you're waiting for a particular result.")]
+		public bool everyFrame;
+
+		public override void Reset()
+		{
+		}
+
+		public override void OnEnter()
+		{
+		}
+
+		public override void OnUpdate()
+		{
+		}
+
+		private void DoCompare()
+		{
+		}
+
+		public override string ErrorCheck()
+		{
+			return null;
+		}
+	}
+}
