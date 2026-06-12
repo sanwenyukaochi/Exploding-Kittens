@@ -14,32 +14,17 @@ public class Card extends AggregateRoot<CardId> {
     public DrawType DrawType;
     public Player PlacingPlayer;
 
-    public void Reset()
-    {
-    }
+    public void Reset() {}
 
-    public void MarkCard()
-    {
-    }
+    public void MarkCard() {}
 
-    public void UnMarkCard()
-    {
-    }
+    public void UnMarkCard() {}
 
-    public void SprayWithDiarrhea()
-    {
-    }
+    public void SprayWithDiarrhea() {}
 
-    public void WipeUpDiarrhea()
-    {
-    }
+    public void WipeUpDiarrhea() {}
 
-    public void Disguise()
-    {
-    }
+    public void Disguise() {}
 
-    public void ShedDisguise()
-    {
-    }
-
+    public void ShedDisguise() {}
 }
