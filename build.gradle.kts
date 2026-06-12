@@ -114,6 +114,11 @@ subprojects {
                 dependency("org.postgresql:postgresql:${libs.versions.postgresql.get()}")
                 dependency("io.cucumber:cucumber-java:${libs.versions.cucumber.get()}")
                 dependency("io.cucumber:cucumber-junit:${libs.versions.cucumber.get()}")
+                dependency("io.cucumber:cucumber-spring:${libs.versions.cucumber.get()}")
+                dependency("org.testcontainers:testcontainers:${libs.versions.testcontainers.get()}")
+                dependency("org.testcontainers:kafka:${libs.versions.testcontainers.get()}")
+                dependency("org.testcontainers:postgresql:${libs.versions.testcontainers.get()}")
+                dependency("org.testcontainers:junit-jupiter:${libs.versions.testcontainers.get()}")
             }
         }
     }
