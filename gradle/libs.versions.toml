@@ -12,6 +12,7 @@ redisson = "4.5.0"
 springAi = "2.0.0-M5"
 springdoc = "3.0.3"
 cucumber = "7.34.3"
+testcontainers = "1.19.0"
 
 [libraries]
 
