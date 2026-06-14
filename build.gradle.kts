@@ -63,12 +63,21 @@ allprojects {
                 toggleOffOn()
             }
 
+            gherkin {
+                target("**/*.feature")
+                gherkinUtils()
+                trimTrailingWhitespace()
+                endWithNewline()
+                toggleOffOn()
+            }
+
             toml {
                 target("**/*.toml")
                 versionCatalog()
                     .stripQuotedKeys(true)
                 trimTrailingWhitespace()
                 endWithNewline()
+                toggleOffOn()
             }
 
             json {
@@ -77,6 +86,9 @@ allprojects {
                     .indentWithSpaces(4)
                     .sortByKeys()
                     .escapeHtml()
+                trimTrailingWhitespace()
+                endWithNewline()
+                toggleOffOn()
             }
         }
     }
