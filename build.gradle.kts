@@ -10,7 +10,7 @@ import org.springframework.boot.gradle.plugin.SpringBootPlugin
 plugins {
     id("org.springframework.boot") version "4.1.0" apply false
     id("io.spring.dependency-management") version "1.1.7" apply false
-    id("com.diffplug.spotless") version "8.6.0"
+    id("com.diffplug.spotless") version "8.7.0"
     id("com.vanniktech.dependency.graph.generator") version "0.8.0"
 }
 
