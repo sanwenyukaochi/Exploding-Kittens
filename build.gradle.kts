@@ -1,4 +1,5 @@
 import com.diffplug.gradle.spotless.SpotlessExtension
+import com.diffplug.spotless.java.GoogleJavaFormatStep
 import com.vanniktech.dependency.graph.generator.DependencyGraphGeneratorExtension
 import com.vanniktech.dependency.graph.generator.DependencyGraphGeneratorPlugin
 import guru.nidi.graphviz.attribute.Color
@@ -39,7 +40,14 @@ allprojects {
             encoding("UTF-8")
             java {
                 target("**/*.java")
-                googleJavaFormat().aosp()
+                forbidWildcardImports()
+                forbidModuleImports()
+                googleJavaFormat(GoogleJavaFormatStep.defaultVersion())
+                    .aosp()
+                    .reflowLongStrings(false)
+                    .formatJavadoc(true)
+                    .reorderImports(true)
+                    .groupArtifact(GoogleJavaFormatStep.defaultGroupArtifact())
                 importOrder()
                 removeUnusedImports()
                 formatAnnotations()
@@ -132,6 +140,7 @@ subprojects {
                 dependency("org.testcontainers:kafka:${libs.versions.testcontainers.get()}")
                 dependency("org.testcontainers:postgresql:${libs.versions.testcontainers.get()}")
                 dependency("org.testcontainers:junit-jupiter:${libs.versions.testcontainers.get()}")
+                dependency("com.tngtech.archunit:archunit-junit5:${libs.versions.archunitJunit5.get()}")
             }
         }
     }
