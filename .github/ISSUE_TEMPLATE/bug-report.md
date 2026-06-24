@@ -1,9 +1,10 @@
 ---
-name: "\U0001F41E Bug report"
+name: Bug report
 about: Report a bug or unexpected behavior in Exploding Kittens
 title: "[BUG]: "
 labels: bug
-assignees: ""
+assignees: ''
+
 ---
 
 **Describe the bug**

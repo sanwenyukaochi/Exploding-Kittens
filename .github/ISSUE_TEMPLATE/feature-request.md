@@ -1,9 +1,10 @@
 ---
-name: "✨ Feature Request"
+name: Feature request
 about: Suggest an idea for improving Exploding Kittens
 title: "[Feature Request]: "
 labels: enhancement
-assignees: ""
+assignees: ''
+
 ---
 
 **Is your feature request related to a problem? Please describe.**
