@@ -4,6 +4,7 @@ import io.kittens.exploding.card.domain.entity.Card;
 import io.kittens.exploding.card.domain.valueObject.CardCategory;
 import io.kittens.exploding.common.domain.entity.AggregateRoot;
 import io.kittens.exploding.deck.domain.valueObject.DeckId;
+
 import java.util.List;
 import java.util.function.Function;
 

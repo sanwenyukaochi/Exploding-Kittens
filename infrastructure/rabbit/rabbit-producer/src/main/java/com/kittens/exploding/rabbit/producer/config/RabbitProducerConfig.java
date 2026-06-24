@@ -1,7 +1,9 @@
 package com.kittens.exploding.rabbit.producer.config;
 
 import com.kittens.exploding.rabbit.config.data.RabbitProducerConfigData;
+
 import lombok.RequiredArgsConstructor;
+
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
